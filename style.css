@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .links {
+    margin: 15px;
+}
+
+.header h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.list ul {
+    margin-left: 25px;
+}
+
+.links div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.links input {
+    margin-top: 15px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
